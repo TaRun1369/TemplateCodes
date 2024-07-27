@@ -16,8 +16,8 @@ long long modular(long long no,long long power,long long mod){
     return res%mod;
 }
 
-int main(){
-    int n;
+long long main(){
+    long long n;
     cin>>n;
     cout<<modular(2,n,100000);
 }
